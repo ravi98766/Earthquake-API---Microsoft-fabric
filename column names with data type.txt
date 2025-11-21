@@ -1,0 +1,18 @@
+id -- datatype  string
+longitude- datatype decimal
+latitude- datatype  decimal
+elevation- datatype decimal 	
+title -datatype string  	
+place_description-datatype string
+sig  -datatype whole number
+mag-datatype  decimal
+magType	 -datatype  string	
+time -datatype datetime
+updated	-datatype datetime
+country_code-datatype string	
+sig_class -datatype string
+
+
+df = spark.read.option("multiline", "true").json(
+    f"abfss://e0cf1801-1533-430a-8805-b23abd9dafae@onelake.dfs.fabric.microsoft.com/1e7f5f0f-ff1f-4677-bf46-d8117fe266c9/Files/{start_date}_earthquake_data.json"
+)
