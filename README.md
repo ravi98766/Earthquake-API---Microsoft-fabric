@@ -1,6 +1,6 @@
 
 
-*** Worldwide Earthquake Events API — Medallion Architecture Processing (Bronze ➜ Silver ➜ Gold)***
+## Worldwide Earthquake Events API — Medallion Architecture Processing (Bronze ➜ Silver ➜ Gold) ##
 
 ***This project demonstrates an end-to-end Azure Fabric Medallion Architecture pipeline using the USGS Worldwide Earthquake GeoJSON API.***
 
